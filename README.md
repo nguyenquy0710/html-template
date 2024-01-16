@@ -1,4 +1,4 @@
-# html-template
+# HTML templates 💯
 
 - [todo app](https://gist.quyit.id.vn/html-template/todo%20app/)
 - [responsive-portfolio-website](https://gist.quyit.id.vn/html-template/responsive-portfolio-website/)
