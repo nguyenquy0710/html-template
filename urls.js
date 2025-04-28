@@ -26,7 +26,6 @@ const urls = [
     links: [
       { name: "Chatgpt", path: "chatgpt" },
       { name: "Todo App", path: "todo-app" },
-      { name: "magic-navigation-menu-3", path: "magic-navigation-menu-3" },
       { name: "responsive-portfolio-website", path: "responsive-portfolio-website" },
     ]
   }
