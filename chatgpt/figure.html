@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Figure mượt mà</title>
+    <style>
+      .figure-img {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        /* Cắt phần tràn ra ngoài */
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin: 20px;
+        background: #f8f8f8;
+      }
+
+      .figure-img img {
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+        /* Hiệu ứng zoom nhẹ ảnh */
+      }
+
+      .figure-img figcaption {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        /* Nền mờ tối */
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+        opacity: 0;
+        /* Ban đầu ẩn */
+        transform: translateY(20px);
+        /* Trôi xuống 20px */
+        transition: all 0.5s ease;
+        /* Tạo hiệu ứng mượt */
+      }
+
+      .figure-img:hover img {
+        transform: scale(1.05);
+        /* Khi hover, ảnh hơi phóng lớn */
+      }
+
+      .figure-img:hover figcaption {
+        opacity: 1;
+        /* Khi hover, figcaption hiện */
+        transform: translateY(0);
+        /* Trôi lên đúng vị trí */
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <figure class="figure-img">
+      <img src="https://zalozns.com/wp-content/uploads/2023/08/dt.png" alt="Ảnh mẫu mượt">
+      <figcaption>Chú thích xuất hiện mượt mà ✨</figcaption>
+    </figure>
+
+  </body>
+
+</html>
